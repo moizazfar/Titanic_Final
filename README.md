@@ -25,8 +25,7 @@ The Titanic dataset provides information about the passengers on the Titanic and
 Clone this repository and install the necessary packages using pip:
 
 ```bash
-git clone https://github.com/your-username/titanic-survival-prediction.git
-cd titanic-survival-prediction
+git clone https://github.com/your-username/Titanic_Final.git
 pip install -r requirements.txt
 ```
 
@@ -50,7 +49,7 @@ The Titanic dataset can be loaded from a CSV file. Ensure that you have the data
 import pandas as pd
 
 # Load the dataset
-titanic_data = pd.read_csv('titanic.csv')
+titanic_data = pd.read_csv('train.csv')
 ```
 
 ### Data Preprocessing
